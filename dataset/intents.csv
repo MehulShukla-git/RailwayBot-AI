@@ -1,0 +1,698 @@
+text,intent
+hello,greeting
+hi,greeting
+good morning,greeting
+good evening,greeting
+good afternoon,greeting
+hey,greeting
+hey there,greeting
+hi there,greeting
+hello there,greeting
+greetings,greeting
+hey railbot,greeting
+hello railbot,greeting
+hi railway assistant,greeting
+can you help me,greeting
+i need railway information,greeting
+namaste,greeting
+howdy,greeting
+what's up,greeting
+yo,greeting
+sup,greeting
+help me,greeting
+i need help,greeting
+need some information,greeting
+i want to know something,greeting
+can you assist me,greeting
+please help me,greeting
+good day,greeting
+hi assistant,greeting
+hello assistant,greeting
+start,greeting
+bye,goodbye
+goodbye,goodbye
+see you later,goodbye
+thanks bye,goodbye
+thank you goodbye,goodbye
+i am done,goodbye
+exit,goodbye
+quit,goodbye
+have a nice day,goodbye
+thank you,goodbye
+cheers,goodbye
+ok thanks,goodbye
+thanks a lot,goodbye
+that will be all,goodbye
+take care,goodbye
+see ya,goodbye
+later,goodbye
+i am leaving,goodbye
+ok bye,goodbye
+done thanks,goodbye
+show trains from mumbai to delhi,train_search
+find trains from delhi to mumbai,train_search
+trains between nagpur and pune,train_search
+which trains go from mumbai to bikaner,train_search
+find train from pune to delhi,train_search
+show available trains from nagpur to mumbai,train_search
+are there trains from delhi to agra,train_search
+find a train between jaipur and delhi,train_search
+give me trains from surat to mumbai,train_search
+search trains from bhopal to indore,train_search
+what trains run from mumbai to delhi,train_search
+i need a train from mumbai to delhi,train_search
+any trains from hyderabad to bangalore,train_search
+trains from kolkata to delhi,train_search
+find trains mumbai delhi,train_search
+trains mumbai to pune,train_search
+mumbai to delhi trains,train_search
+what trains can i take from mumbai to delhi,train_search
+are there any trains between mumbai and delhi,train_search
+which trains connect mumbai and delhi,train_search
+i want to go from mumbai to delhi by train,train_search
+i need to travel from delhi to jaipur,train_search
+how do i get from pune to mumbai by train,train_search
+can you find trains from chennai to bangalore,train_search
+train options from ahmedabad to mumbai,train_search
+train services from delhi to agra,train_search
+trains available from lucknow to varanasi,train_search
+show me trains for delhi to amritsar,train_search
+list trains from mumbai to goa,train_search
+find all trains from delhi to kolkata,train_search
+trains going from patna to delhi,train_search
+is there a train from jaipur to udaipur,train_search
+trains to go from hyderabad to pune,train_search
+i want train from bangalore to mumbai,train_search
+show trains pune to nagpur,train_search
+trains from bhopal to mumbai,train_search
+trains between delhi and agra,train_search
+trains between chennai and hyderabad,train_search
+find trains from kochi to trivandrum,train_search
+trains from ahmedabad to rajkot,train_search
+show all trains from vadodara to surat,train_search
+trains from allahabad to varanasi,train_search
+any trains from goa to mumbai,train_search
+trains from visakhapatnam to vijayawada,train_search
+list trains delhi to dehradun,train_search
+trains from kanpur to delhi,train_search
+trains from ernakulam to coimbatore,train_search
+trains from new delhi to mumbai,train_search
+search train delhi to mumbai,train_search
+get trains from mumbai to delhi,train_search
+which train goes from delhi to howrah,train_search
+train between mumbai and delhi,train_search
+i want to travel from mumbai to delhi,train_search
+what are the trains from mumbai to delhi,train_search
+train list from mumbai to delhi,train_search
+trains from mumbai going to delhi,train_search
+find me a train to delhi from mumbai,train_search
+i am looking for trains between mumbai and delhi,train_search
+need to find train between pune and nagpur,train_search
+trains for journey from kolkata to varanasi,train_search
+suggest trains from delhi to jaipur,train_search
+any express train from mumbai to delhi,train_search
+what trains are available from pune to delhi,train_search
+tell me train options from mumbai to delhi,train_search
+trains connecting mumbai to ahmedabad,train_search
+trains from chandigarh to delhi,train_search
+trains from delhi to lucknow,train_search
+trains between patna and kolkata,train_search
+trains from agra to jaipur,train_search
+trains from srinagar to delhi,train_search
+trains from thiruvananthapuram to mumbai,train_search
+trains from nagpur to hyderabad,train_search
+trains from indore to bhopal,train_search
+trains from nashik to pune,train_search
+train schedule mumbai to delhi,train_search
+find me a direct train from delhi to varanasi,train_search
+which trains go from bangalore to mysore,train_search
+i want to book a train from mumbai to delhi,train_search
+any rajdhani from mumbai to delhi,train_search
+intercity trains from pune to mumbai,train_search
+superfast trains from mumbai to delhi,train_search
+trains from howrah to new delhi,train_search
+trains from new delhi to howrah,train_search
+trains from mumbai central to new delhi,train_search
+trains from bandra terminus to delhi,train_search
+trains from pune to bangalore,train_search
+trains from bangalore to pune,train_search
+trains from hyderabad to mumbai,train_search
+trains from mumbai to hyderabad,train_search
+trains from chennai to mumbai,train_search
+trains from mumbai to chennai,train_search
+trains from kolkata to mumbai,train_search
+trains from mumbai to kolkata,train_search
+trains from delhi to patna,train_search
+trains from patna to delhi,train_search
+trains from delhi to varanasi,train_search
+trains from varanasi to delhi,train_search
+trains from jaipur to delhi,train_search
+trains from lucknow to delhi,train_search
+trains from dehradun to delhi,train_search
+trains from amritsar to delhi,train_search
+trains from jammu to delhi,train_search
+trains from guwahati to delhi,train_search
+trains from bhubaneswar to kolkata,train_search
+trains from visakhapatnam to hyderabad,train_search
+trains from coimbatore to chennai,train_search
+trains from madurai to chennai,train_search
+trains from mysore to bangalore,train_search
+trains from hubli to bangalore,train_search
+trains from aurangabad to mumbai,train_search
+trains from nashik to mumbai,train_search
+trains from kolhapur to pune,train_search
+trains from solapur to pune,train_search
+trains from nagpur to pune,train_search
+trains from nagpur to mumbai,train_search
+trains from rajkot to ahmedabad,train_search
+trains from surat to ahmedabad,train_search
+trains from baroda to mumbai,train_search
+trains from jamnagar to mumbai,train_search
+trains from jodhpur to jaipur,train_search
+trains from ajmer to jaipur,train_search
+trains from kota to jaipur,train_search
+trains from udaipur to jaipur,train_search
+trains from bikaner to delhi,train_search
+trains from sikar to jaipur,train_search
+trains from allahabad to delhi,train_search
+trains from gorakhpur to delhi,train_search
+trains from meerut to delhi,train_search
+trains from agra to delhi,train_search
+trains from mathura to delhi,train_search
+trains from aligarh to delhi,train_search
+trains from gwalior to delhi,train_search
+trains from jhansi to delhi,train_search
+trains from bhopal to delhi,train_search
+trains from jabalpur to delhi,train_search
+trains from raipur to nagpur,train_search
+trains from bilaspur to raipur,train_search
+trains from ranchi to patna,train_search
+trains from dhanbad to kolkata,train_search
+trains from asansol to kolkata,train_search
+trains from durgapur to kolkata,train_search
+trains from siliguri to kolkata,train_search
+trains from guwahati to kolkata,train_search
+trains from dibrugarh to delhi,train_search
+trains from imphal to guwahati,train_search
+tell me about train 12951,train_details
+give details of train 04728,train_details
+information about train 12490,train_details
+what is train number 12907,train_details
+show details for train 14708,train_details
+tell me the name of train 12951,train_details
+what is the route of train 04728,train_details
+give train information for 12361,train_details
+details of train 12627,train_details
+show information about train 12031,train_details
+info on train 12951,train_details
+what is 12951,train_details
+tell me about 12951,train_details
+12951 details,train_details
+12951 train info,train_details
+what type of train is 12951,train_details
+how far does 12951 travel,train_details
+what is the distance for 12951,train_details
+duration of train 12951,train_details
+what classes does 12951 have,train_details
+info about 12951,train_details
+train 12951 information,train_details
+can you tell me about train 12951,train_details
+i want details of train 12951,train_details
+what is train 12951,train_details
+describe train 12951,train_details
+tell me about rajdhani,train_details
+information about rajdhani express,train_details
+details of shatabdi express,train_details
+tell me about duronto,train_details
+information about garib rath,train_details
+tell me about sampark kranti,train_details
+details of intercity express,train_details
+info on deccan express,train_details
+tell me about august kranti,train_details
+info about tejas express,train_details
+tell me about vande bharat,train_details
+information about humsafar,train_details
+details of antyodaya express,train_details
+info about uday express,train_details
+tell me about rajdhani from mumbai,train_details
+information about mumbai rajdhani,train_details
+details of the rajdhani train,train_details
+what is rajdhani express,train_details
+rajdhani train info,train_details
+rajdhani express details,train_details
+tell me about 12001,train_details
+tell me about 12301,train_details
+train number 12453 details,train_details
+info of train 12423,train_details
+what train is 12621,train_details
+details of 22691,train_details
+what is train 12025,train_details
+train info 12261,train_details
+get details for train 12019,train_details
+information on 12559,train_details
+tell me about express train 12951,train_details
+train number 12951 route,train_details
+from where does 12951 start,train_details
+where does train 12951 go,train_details
+train 12951 source and destination,train_details
+what type of coach does 12951 have,train_details
+is 12951 a superfast train,train_details
+12951 zone,train_details
+12951 departure time,train_details
+12951 arrival time,train_details
+what is train 12909,train_details
+information about 12625,train_details
+show me details of train 12621,train_details
+get info of 12431,train_details
+train details for 12425,train_details
+what kind of train is 11011,train_details
+tell me about 12001 bhopal shatabdi,train_details
+information for 22119,train_details
+train 12951 mumbai rajdhani details,train_details
+tell me more about 12595,train_details
+what classes are in train 12431,train_details
+is 12951 a rajdhani train,train_details
+tell me about 12649,train_details
+details for train 12655,train_details
+train description for 12616,train_details
+what is train 12617,train_details
+train 12137 details,train_details
+what do you know about train 12141,train_details
+give me all details of train 12229,train_details
+what is the full name of train 12951,train_details
+is train 12951 a sleeper train,train_details
+does train 12951 have ac coaches,train_details
+what is the distance of train 12951 journey,train_details
+how long does train 12951 take,train_details
+show station info of nagpur,station_info
+tell me about nagpur station,station_info
+what is the code of nagpur station,station_info
+give station details for mumbai central,station_info
+what is the station code for pune,station_info
+show information about delhi station,station_info
+tell me about surat railway station,station_info
+station details of bhopal,station_info
+what is the code of jaipur station,station_info
+show details of agra station,station_info
+tell me about nagpur,station_info
+tell me about delhi,station_info
+tell me about mumbai,station_info
+tell me about pune,station_info
+tell me about bhopal,station_info
+tell me about jaipur,station_info
+tell me about surat,station_info
+tell me about agra,station_info
+tell me about kanpur,station_info
+tell me about lucknow,station_info
+what is NGP,station_info
+what is NDLS,station_info
+what is BCT,station_info
+what is CST,station_info
+what is SBC,station_info
+what is MAS,station_info
+what is HWH,station_info
+what is PUNE,station_info
+station code NGP,station_info
+station code NDLS,station_info
+station code for nagpur,station_info
+station code for delhi,station_info
+station code for mumbai,station_info
+what is the code of bangalore station,station_info
+station information for hyderabad,station_info
+details of chennai station,station_info
+info on kolkata station,station_info
+show me nagpur station info,station_info
+nagpur station details,station_info
+information about nagpur railway station,station_info
+nagpur station code,station_info
+tell me the code of nagpur,station_info
+what is the station code of nagpur,station_info
+find nagpur station,station_info
+nagpur station information,station_info
+what zone is nagpur station in,station_info
+which state is nagpur station in,station_info
+address of nagpur railway station,station_info
+tell me about csmt station,station_info
+information about victoria terminus,station_info
+tell me about howrah station,station_info
+info on new delhi station,station_info
+what is dadar station code,station_info
+station information for pune junction,station_info
+tell me about lokmanya tilak terminus,station_info
+info about secunderabad station,station_info
+station code of kacheguda,station_info
+information about ernakulam junction,station_info
+what is trivandrum central code,station_info
+station details of coimbatore junction,station_info
+tell me about madurai junction,station_info
+info on patna junction,station_info
+details of gaya station,station_info
+tell me about varanasi junction,station_info
+what is allahabad junction code,station_info
+information about kanpur central,station_info
+station info for lucknow junction,station_info
+tell me about gorakhpur station,station_info
+station code for bhubaneswar,station_info
+info on visakhapatnam station,station_info
+station details vijayawada,station_info
+tell me about guntur station,station_info
+information about nellore,station_info
+what is rajkot station code,station_info
+tell me about ahmedabad station,station_info
+surat station information,station_info
+station details baroda,station_info
+tell me about vadodara station,station_info
+info about jodhpur junction,station_info
+tell me about ajmer station,station_info
+udaipur station information,station_info
+station details bikaner junction,station_info
+tell me about amritsar station,station_info
+info about ludhiana station,station_info
+tell me about jalandhar station,station_info
+information about chandigarh station,station_info
+station code ambala,station_info
+tell me about jammu tawi station,station_info
+info about dehradun station,station_info
+tell me about haridwar station,station_info
+information about rishikesh,station_info
+station info guwahati,station_info
+tell me about dibrugarh station,station_info
+information about silchar station,station_info
+tell me about shillong station,station_info
+what is the address of nagpur station,station_info
+which zone does mumbai central belong to,station_info
+which state is howrah station in,station_info
+show schedule of train 12951,schedule_query
+what is the schedule of train 12951,schedule_query
+give me train 12951 schedule,schedule_query
+show stations of train 12951,schedule_query
+what are the stops of train 12951,schedule_query
+when does train 12951 depart,schedule_query
+when does train 12951 arrive,schedule_query
+show route schedule of train 04728,schedule_query
+give schedule for train 12490,schedule_query
+show the stops for train 14708,schedule_query
+where does 12951 stop,schedule_query
+stations on train 12951 route,schedule_query
+all stops of 12951,schedule_query
+show all stations for 12951,schedule_query
+what stations does 12951 pass through,schedule_query
+12951 route stations,schedule_query
+route of train 12951,schedule_query
+show the route of 12951,schedule_query
+tell me the route of 12951,schedule_query
+intermediate stations of 12951,schedule_query
+halts of train 12951,schedule_query
+stops on train 12951,schedule_query
+where does train 12951 halt,schedule_query
+stations covered by 12951,schedule_query
+12951 departure time at each station,schedule_query
+show schedule for rajdhani,schedule_query
+schedule of shatabdi express,schedule_query
+all stops of rajdhani,schedule_query
+route of mumbai rajdhani,schedule_query
+stations of rajdhani express,schedule_query
+show 12951 timetable,schedule_query
+timetable for train 12951,schedule_query
+when does 12951 reach delhi,schedule_query
+what time does 12951 leave mumbai,schedule_query
+arrival and departure of 12951,schedule_query
+show schedule for 12627,schedule_query
+route of 12627,schedule_query
+stops of 12627,schedule_query
+stations for train 12627,schedule_query
+schedule of 12361,schedule_query
+where does 12361 stop,schedule_query
+route of train 12361,schedule_query
+stations on 12361,schedule_query
+schedule of train 04728,schedule_query
+stops of train 04728,schedule_query
+route of 04728,schedule_query
+show the stops of 22691,schedule_query
+stations for 22691,schedule_query
+route of train 22691,schedule_query
+schedule of 22691,schedule_query
+stops on 12001,schedule_query
+route of shatabdi 12001,schedule_query
+timetable for 12001,schedule_query
+show stops of 12423,schedule_query
+all halts of train 12423,schedule_query
+schedule of 12423,schedule_query
+route of 12423,schedule_query
+when does 12951 arrive at ndls,schedule_query
+what are the intermediate stations of 12951,schedule_query
+show full route of train 12951,schedule_query
+complete schedule of train 12951,schedule_query
+all stations from mumbai to delhi for 12951,schedule_query
+timing of all stops of 12951,schedule_query
+when does 12951 depart from dadar,schedule_query
+when does 12951 pass through bhopal,schedule_query
+what time is 12951 at kota,schedule_query
+show me all stations on train route 12951,schedule_query
+route info for 12951,schedule_query
+what stations does 12627 cover,schedule_query
+all stops on 12001 route,schedule_query
+show schedule for train 12560,schedule_query
+schedule of train 12453,schedule_query
+route of train 12453,schedule_query
+stops of 12453,schedule_query
+show me route of 11011,schedule_query
+all halts of 11011,schedule_query
+stations for 11011,schedule_query
+show me the stops on 12309,schedule_query
+route for 12309,schedule_query
+schedule of 12309,schedule_query
+show me where 12951 stops,schedule_query
+give me stops for train 12559,schedule_query
+12559 all stations,schedule_query
+12559 route,schedule_query
+show 12261 schedule,schedule_query
+route and stops of 12261,schedule_query
+show all stations of 12229,schedule_query
+schedule of 12229,schedule_query
+enquiry for pnr 6240142758,pnr_status
+pnr 2895301426 check,pnr_status
+pnr 7609487385 status,pnr_status
+pnr enquiry 3658968594,pnr_status
+pnr 1008950502 status,pnr_status
+pnr enquiry 5707274548,pnr_status
+is my ticket 5312220378 confirmed,pnr_status
+is my ticket 7042370452 confirmed,pnr_status
+find pnr 6569865163,pnr_status
+status for pnr 5807822188,pnr_status
+pnr enquiry 1359985884,pnr_status
+enquiry for pnr 1815103321,pnr_status
+status for pnr 5629376224,pnr_status
+PNR status 9106222696,pnr_status
+show pnr 2756408381,pnr_status
+pnr 9490667513 check,pnr_status
+what is pnr 9422223240,pnr_status
+status for pnr 7118301407,pnr_status
+Check PNR 8730731736,pnr_status
+Check my ticket status for 2541509324,pnr_status
+reservation status 2597796630,pnr_status
+find pnr 3200225688,pnr_status
+find pnr 7345786953,pnr_status
+Check my ticket status for 7994644702,pnr_status
+PNR status 7267493269,pnr_status
+What is the status of PNR 4911194175,pnr_status
+pnr 1612811222 status,pnr_status
+Check PNR 6352576823,pnr_status
+what is pnr 1057681695,pnr_status
+booking status 7226289852,pnr_status
+what is pnr 2870607141,pnr_status
+check reservation 8567762413,pnr_status
+Check my ticket status for 9416090318,pnr_status
+what is pnr 8376617412,pnr_status
+PNR status 6006871305,pnr_status
+pnr enquiry 2830697492,pnr_status
+find pnr 9793144237,pnr_status
+booking status 8165349275,pnr_status
+booking status 5284579686,pnr_status
+What is the status of PNR 6613462813,pnr_status
+reservation status 9073854150,pnr_status
+reservation status 8402869887,pnr_status
+find pnr 8684114908,pnr_status
+status for pnr 7339233052,pnr_status
+show pnr 9374488671,pnr_status
+what is pnr 4373879862,pnr_status
+get pnr 4727674725,pnr_status
+pnr 5953444239 check,pnr_status
+check reservation 1560254189,pnr_status
+Check PNR 3941105725,pnr_status
+pnr status 8540926638,pnr_status
+my pnr is 1784938741,pnr_status
+pnr status 7398628242,pnr_status
+check ticket pnr 8310698846,pnr_status
+my pnr is 2335765411,pnr_status
+tell me pnr status of 2989077740,pnr_status
+check ticket pnr 9840953729,pnr_status
+give me pnr status 1650886079,pnr_status
+pnr status 3211985385,pnr_status
+pnr status 2690751608,pnr_status
+pnr status 8386652371,pnr_status
+check my ticket status for pnr 6314502700,pnr_status
+pnr status 4147879763,pnr_status
+pnr 9114979458,pnr_status
+my pnr is 3481725280,pnr_status
+check my ticket status for pnr 3646968235,pnr_status
+tell me pnr status of 9035680827,pnr_status
+what is the status of pnr 4460114578,pnr_status
+is my pnr confirmed 3068594913,pnr_status
+give me pnr status 7174065085,pnr_status
+check ticket pnr 2758232726,pnr_status
+pnr 5585918888,pnr_status
+pnr status 2399376836,pnr_status
+check pnr 1992766198,pnr_status
+is my pnr confirmed 2097493079,pnr_status
+check my ticket status for pnr 6427494624,pnr_status
+give me pnr status 1325960395,pnr_status
+give me pnr status 1218691359,pnr_status
+is my pnr confirmed 3859455505,pnr_status
+give me pnr status 5855048671,pnr_status
+what is the status of pnr 3648278831,pnr_status
+tell me pnr status of 7527208782,pnr_status
+pnr status 2750157766,pnr_status
+check ticket pnr 6891003737,pnr_status
+tell me pnr status of 6954067535,pnr_status
+check my ticket status for pnr 5124623828,pnr_status
+check pnr 2949560342,pnr_status
+what is the status of pnr 1681540201,pnr_status
+check my ticket status for pnr 7148582363,pnr_status
+my pnr is 5442631065,pnr_status
+check my ticket status for pnr 1345603790,pnr_status
+give me pnr status 4248245124,pnr_status
+my pnr is 5042823766,pnr_status
+pnr 6440894255,pnr_status
+check ticket pnr 4030690489,pnr_status
+check pnr 2859114084,pnr_status
+pnr 5653023615,pnr_status
+pnr 8416491889,pnr_status
+what is the status of pnr 2908450133,pnr_status
+check pnr status 4820194852,pnr_status
+verify my pnr 5198237461,pnr_status
+my booking pnr is 6712894530,pnr_status
+confirm pnr 3401567892,pnr_status
+validate pnr 7893246510,pnr_status
+pnr confirmation 2341896705,pnr_status
+is pnr 8920134756 confirmed,pnr_status
+check my pnr 4517823690,pnr_status
+pnr number 9034567812,pnr_status
+ticket status for 6781234509,pnr_status
+train 38078 running info,live_train_status
+train 76395 running info,live_train_status
+train 81181 running info,live_train_status
+Is train 59232 delayed,live_train_status
+track train 65774,live_train_status
+is 65242 on time,live_train_status
+current status of 88864,live_train_status
+show live status for 22466,live_train_status
+Is train 85849 delayed,live_train_status
+track train 52725,live_train_status
+track train 38596,live_train_status
+spot train 92792,live_train_status
+what is the delay of 81774,live_train_status
+running status of 62214,live_train_status
+train 20194 running info,live_train_status
+is 64016 on time,live_train_status
+spot train 85454,live_train_status
+train 69244 live status,live_train_status
+running status of 97813,live_train_status
+is 56514 on time,live_train_status
+running status of 97829,live_train_status
+Is train 37412 delayed,live_train_status
+Is train 19083 delayed,live_train_status
+train 51160 live status,live_train_status
+what is the delay of 72295,live_train_status
+spot train 67362,live_train_status
+running status of 79696,live_train_status
+live location of train 54654,live_train_status
+track train 86420,live_train_status
+is 55695 on time,live_train_status
+running info for 59774,live_train_status
+track train 52615,live_train_status
+Live status of train 27190,live_train_status
+where is 58047 running,live_train_status
+spot train 63451,live_train_status
+spot train 72691,live_train_status
+train 54917 live status,live_train_status
+where is 90267 running,live_train_status
+Live status of train 48291,live_train_status
+live location of train 96414,live_train_status
+running status of 19530,live_train_status
+spot train 69053,live_train_status
+show live status for 32697,live_train_status
+current status of 89963,live_train_status
+train 85161 running info,live_train_status
+live location of train 83248,live_train_status
+Where is train 46111,live_train_status
+what is the delay of 61386,live_train_status
+track train 76648,live_train_status
+what is the delay of 68597,live_train_status
+Is train 76355 delayed,live_train_status
+show live status for 39660,live_train_status
+Live status of train 14295,live_train_status
+show live status for 87483,live_train_status
+current status of 52589,live_train_status
+spot train 63150,live_train_status
+live status of train 40845,live_train_status
+track train 98907,live_train_status
+spot train 98634,live_train_status
+where is train 46756,live_train_status
+running status of train 48951,live_train_status
+live location of train 90936,live_train_status
+live status of train 65383,live_train_status
+where did train reach 25048,live_train_status
+where is train 83274,live_train_status
+track train 32655,live_train_status
+spot train 44197,live_train_status
+train running status 85757,live_train_status
+live location of train 40210,live_train_status
+running status of train 54674,live_train_status
+running status of train 77333,live_train_status
+where did train reach 33528,live_train_status
+is train delayed 27644,live_train_status
+spot train 13061,live_train_status
+live location of train 25356,live_train_status
+running status of train 62340,live_train_status
+is train delayed 52932,live_train_status
+train running status 23835,live_train_status
+where is train 24388,live_train_status
+spot train 43204,live_train_status
+live location of train 20088,live_train_status
+spot train 84305,live_train_status
+live location of train 10624,live_train_status
+where is train 13986,live_train_status
+track 95450,live_train_status
+track train 77550,live_train_status
+track train 89328,live_train_status
+track train 81633,live_train_status
+track train 23669,live_train_status
+spot train 87083,live_train_status
+is train delayed 72253,live_train_status
+track 99019,live_train_status
+live status of train 83782,live_train_status
+live status of train 83496,live_train_status
+where is train 98672,live_train_status
+track 76332,live_train_status
+is train delayed 82914,live_train_status
+track 34911,live_train_status
+live status of train 73486,live_train_status
+where did train reach 55688,live_train_status
+live status of train 95395,live_train_status
+where is train 36182,live_train_status
+is train delayed 67473,live_train_status
+is train delayed 24052,live_train_status
+train running status 16963,live_train_status
+live train 12951,live_train_status
+where is 12951 now,live_train_status
+current position of 12951,live_train_status
+is 12951 on time,live_train_status
+is 12951 delayed,live_train_status
+where is train 12951 right now,live_train_status
+track 12951,live_train_status
+spot 12951,live_train_status
+running status 12951,live_train_status
+where has 12951 reached,live_train_status
+live position of 12951,live_train_status
+what is current location of 12951,live_train_status
