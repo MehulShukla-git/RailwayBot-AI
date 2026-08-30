@@ -32,6 +32,25 @@
     --font-body: 'Inter', system-ui, -apple-system, sans-serif;
     --font-mono: 'JetBrains Mono', ui-monospace, monospace;
   }
+
+  .dark {
+    --rail-bg-primary: #171415;
+    --rail-bg-secondary: #221C1E;
+    --rail-bg-card: #2B2326;
+    --rail-surface: #2B2326;
+    --rail-border: rgba(255, 255, 255, 0.12);
+    --rail-border-active: rgba(200, 70, 85, 0.5);
+    
+    --rail-maroon: #A83242;
+    --rail-maroon-deep: #7A1F2B;
+    --rail-charcoal: #EDE6DF;
+    --rail-success: #3E9D73;
+    --rail-warning: #D8983E;
+    
+    --rail-text-primary: #EDE6DF;
+    --rail-text-secondary: #C8BFB7;
+    --rail-text-muted: #9E948C;
+  }
 }
 
 @layer utilities {

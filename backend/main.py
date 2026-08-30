@@ -20,7 +20,7 @@ from search_engine import get_train, get_trains_by_name
 from station_search import get_station
 from route_search import find_trains
 from schedule_search import get_schedule
-from external_api import get_pnr_status, get_live_train_status
+from external_api import get_pnr_status, get_live_train_status, get_diagnostics
 from entity_extractor import extract_entities, normalise
 
 # Configure logging
@@ -544,8 +544,22 @@ def root():
 
 @app.get("/health")
 def health():
+    diag = get_diagnostics()
     return {
         "status": "healthy",
         "service": "RailBot AI Backend",
         "nlp_model_loaded": model is not None,
+        "external_api": {
+            "pnr_configured": diag.get("pnr_configured", False),
+            "live_status_configured": diag.get("live_status_configured", False),
+        }
     }
+
+
+@app.get("/diagnostics")
+def diagnostics():
+    diag = get_diagnostics()
+    diag["nlp_model_loaded"] = model is not None
+    diag["service"] = "RailBot AI API"
+    diag["version"] = "3.0.0"
+    return diag

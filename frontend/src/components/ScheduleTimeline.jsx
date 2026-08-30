@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronUp, Calendar, Train, MapPin, Hash } from 'lucide-react';
+import { ChevronDown, ChevronUp, Calendar, Train, MapPin } from 'lucide-react';
 
 /**
  * ScheduleTimeline

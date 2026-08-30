@@ -41,7 +41,7 @@ export default function QuickActions({ onActionSelect }) {
       icon: Route,
       color: 'text-[#C7862B]',
       bg: 'bg-[#C7862B]/10',
-      prompt: 'Show trains from Mumbai to Delhi'
+      prompt: 'Route of train 12951'
     },
     {
       id: 'pnr',
@@ -55,20 +55,21 @@ export default function QuickActions({ onActionSelect }) {
 
   return (
     <div className="bg-transparent">
-      <h3 className="font-bold text-[var(--rail-charcoal)] text-[15px] mb-4">Quick Actions</h3>
-      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3">
+      <h3 className="font-bold text-[var(--rail-charcoal)] text-[15px] mb-3">Quick Actions</h3>
+      <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-3 gap-2.5">
         {actions.map((action) => {
           const Icon = action.icon;
           return (
             <button
               key={action.id}
+              type="button"
               onClick={() => onActionSelect && onActionSelect(action.prompt)}
-              className="flex flex-col items-center justify-center gap-2.5 p-4 rounded-2xl bg-white border border-[var(--rail-border)] shadow-sm hover:border-[var(--rail-maroon)] hover:shadow-md transition-all group"
+              className="flex flex-col items-center justify-center gap-2 p-3.5 rounded-2xl bg-[var(--rail-bg-card)] border border-[var(--rail-border)] shadow-sm hover:border-[var(--rail-maroon)] hover:shadow-md transition-all group cursor-pointer"
             >
-              <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${action.bg} transition-transform group-hover:scale-110`}>
-                <Icon className={`w-6 h-6 ${action.color}`} />
+              <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${action.bg} transition-transform group-hover:scale-110`}>
+                <Icon className={`w-5 h-5 ${action.color}`} />
               </div>
-              <span className="text-xs font-bold text-[var(--rail-charcoal)] text-center">{action.label}</span>
+              <span className="text-xs font-bold text-[var(--rail-charcoal)] text-center leading-tight">{action.label}</span>
             </button>
           );
         })}
