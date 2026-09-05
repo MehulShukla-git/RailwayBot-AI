@@ -25,6 +25,9 @@ try:
                     name = str(props.get("name") or "").strip().lower()
                     if name:
                         _stations_by_exact_name[name] = props
+            del stations_data
+            import gc
+            gc.collect()
         logger.info("Loaded %d stations", len(_station_list))
     else:
         logger.warning("Stations dataset file not found at %s", _DATASET_PATH)

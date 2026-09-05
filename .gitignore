@@ -30,6 +30,10 @@ env/
 venv/
 ENV/
 
+# Runtime dataset caches
+dataset/*_cache.pkl
+dataset/*.pkl
+
 # Node / Frontend
 node_modules/
 frontend/dist/

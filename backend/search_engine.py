@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import gc
 import logging
 
 logger = logging.getLogger(__name__)
@@ -25,6 +26,8 @@ try:
                     name = str(props.get("name", "")).strip().lower()
                     if name:
                         _trains_by_exact_name[name] = props
+            del trains_data
+            gc.collect()
         logger.info("Loaded %d trains", len(_train_list))
     else:
         logger.warning("Trains dataset file not found at %s", _DATASET_PATH)
