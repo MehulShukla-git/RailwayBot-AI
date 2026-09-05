@@ -14,7 +14,13 @@ export default function SettingsModal({ isOpen, onClose, onClearAllHistory, onBa
 
   useEffect(() => {
     if (isOpen) {
-      setBackendUrl(localStorage.getItem('railbot_backend_url') || defaultUrl);
+      const stored = localStorage.getItem('railbot_backend_url');
+      if (import.meta.env.PROD && stored && (stored.includes('127.0.0.1') || stored.includes('localhost'))) {
+        localStorage.removeItem('railbot_backend_url');
+        setBackendUrl(defaultUrl);
+      } else {
+        setBackendUrl(stored || defaultUrl);
+      }
       setTestResult(null);
       setSavedSuccess(false);
     }
@@ -107,7 +113,7 @@ export default function SettingsModal({ isOpen, onClose, onClearAllHistory, onBa
                 type="text"
                 value={backendUrl}
                 onChange={(e) => setBackendUrl(e.target.value)}
-                placeholder="http://127.0.0.1:8000"
+                placeholder={defaultUrl}
                 className="w-full px-3 py-2.5 rounded-xl bg-[var(--rail-bg-secondary)] border border-[var(--rail-border)] text-sm text-[var(--rail-charcoal)] font-mono focus:border-[var(--rail-maroon)] focus:outline-none transition-colors"
               />
               <div className="flex items-center justify-between text-xs">

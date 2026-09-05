@@ -3,7 +3,12 @@ import axios from 'axios';
 const DEFAULT_BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://127.0.0.1:8000';
 
 export function getActiveBackendUrl() {
-  return (localStorage.getItem('railbot_backend_url') || DEFAULT_BACKEND_URL).replace(/\/+$/, '');
+  const stored = localStorage.getItem('railbot_backend_url');
+  if (import.meta.env.PROD && stored && (stored.includes('127.0.0.1') || stored.includes('localhost'))) {
+    localStorage.removeItem('railbot_backend_url');
+    return DEFAULT_BACKEND_URL.replace(/\/+$/, '');
+  }
+  return (stored || DEFAULT_BACKEND_URL).replace(/\/+$/, '');
 }
 
 /**
