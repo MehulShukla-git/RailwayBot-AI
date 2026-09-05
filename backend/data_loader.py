@@ -1,16 +1,16 @@
 import json
-import pandas as pd
+import os
 
-# Load trains
-with open("../dataset/trains.json", "r", encoding="utf-8") as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET_DIR = os.path.join(BASE_DIR, "..", "dataset")
+
+with open(os.path.join(DATASET_DIR, "trains.json"), "r", encoding="utf-8") as f:
     trains = json.load(f)
 
-# Load stations
-with open("../dataset/stations.json", "r", encoding="utf-8") as f:
+with open(os.path.join(DATASET_DIR, "stations.json"), "r", encoding="utf-8") as f:
     stations = json.load(f)
 
-# Load schedules
-with open("../dataset/schedules.json", "r", encoding="utf-8") as f:
+with open(os.path.join(DATASET_DIR, "schedules.json"), "r", encoding="utf-8") as f:
     schedules = json.load(f)
 
 print("Datasets Loaded Successfully")

@@ -4,7 +4,7 @@ train_model.py
 Trains the TF-IDF + Logistic Regression intent classifier.
 Uses a held-out test split so accuracy is measured on unseen data.
 """
-
+import os
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -13,7 +13,14 @@ from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
 # ── Load dataset ──────────────────────────────────────────────────────────────
-data = pd.read_csv("../dataset/intents.csv")
+DATASET_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "..",
+    "dataset",
+    "intents.csv"
+)
+
+data = pd.read_csv(DATASET_PATH)
 
 # Drop blank rows and duplicates
 data = data.dropna(subset=["text", "intent"])
